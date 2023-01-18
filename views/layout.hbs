@@ -2,15 +2,19 @@
 <html>
   <head>
     <title>{{title}}</title>
-    <link rel='stylesheet' href='/css/style.css' />
+    <link rel='stylesheet' href='/css/main.css' />
   </head>
   <body>
     <header>
-    <h1> MAIN PAGE</h1>
+      <section id="logo">
+            <img id="logoimage" src="https://via.placeholder.com/150.png/09f/fff" alt="team logo">
+      </section>
+
     <nav>
       <ul>
         <li>
-      <a href="/team/brody">Brody</a>
+        <a href="/" href="1">Home</a>
+      <a href="/team/brody" href="1">Brody</a>
       <a href="/team/Roy">Roy</a>
       <a href="/team/Evan">Evan</a>
       <a href="/team/Matt">Matt</a>
@@ -19,15 +23,17 @@
       </ul>
     </nav>
     </header>
-    <h1> Welcome to our Team Page</h1>
+    <h1> Welcome to our Team Page. please select one of the names at the top to view each member</h1>
     <hr>
-    {{{body}}}
-    <hr>
-    <h3>Back to static content</h3>
+    <section class="fillsection">
+       {{{body}}}
+    </section>
 
     <footer id="foot">
       <h2>Footer location</h2>
     </footer>
   </body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
   <script src="/js/main.js"></script>
 </html>
