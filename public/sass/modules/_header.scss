@@ -1,34 +1,37 @@
-nav ul{
+nav ul {
     padding: 0 0 0 0;
     margin: 0 0 0 0;
-  background-color: rgb(255, 255, 255);
-  height: 5em;
-   display: flex;
-  }
-  nav ul li{
+    background-color: rgb(255, 255, 255);
+    height: 5em;
+    display: flex;
+}
+
+nav ul li {
     display: flex;
     flex-direction: row;
     text-decoration: none;
     width: 100%;
     align-items: center;
     justify-content: space-evenly;
-  }
-  ul li a{
-  
+}
+
+ul li a {
     align-items: center;
     text-decoration: none;
-  }
-  .header{
+}
+
+.header {
     display: flex;
     width: 100%;
-  }
-  #logo{
+}
+
+#logo {
     display: flex;
     width: 100%;
     justify-content: center;
     padding: 1em;
-  }
-  
-  #logoimage{
+}
+
+#logoimage {
     max-width: 100%;
-  }
+}
