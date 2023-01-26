@@ -18,6 +18,11 @@ nav ul{
   
     align-items: center;
     text-decoration: none;
+    font-size: 2.5vw;
+    background-color: #f43e3e;
+    padding: .2vw;
+    border-radius: .2em ;
+    transition: ease-in-out 2s;
   }
   .header{
     display: flex;
@@ -31,5 +36,12 @@ nav ul{
   }
   
   #logoimage{
-    max-width: 100%;
+    max-width: 60%;
+    padding: 1em;
   }
+
+  a:hover {
+    transition: ease-in-out 1s;
+    background-color: rgb(255, 255, 255);
+  }
+  
