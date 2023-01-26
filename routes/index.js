@@ -5,7 +5,7 @@ const team = {
   brody: {
     name: 'Brody Billings',
     role: 'Project Manager',
-    desc: 'Hello my name is Brody, iam the Project Manager for our Final Integrated Project, the cambaign on Bullying In Sports.',
+    desc: "Hello my name is Brody, I am the Project Manager for our Final Integrated Project, the campaign on Bullying In Sports.",
     avatar: '/images/brody.jpg'
   },
 
@@ -19,7 +19,7 @@ const team = {
   Evan:{
     name: 'Evan',
     role: 'Front-End Development',
-    desc: "i'm trapped in a tiny room where i'm being forced to code websites. all they give me to eat is oatmeal and sausage. if you're reading this, please send help",
+    desc: "i'm trapped in a tiny room, there is barely any light and they tell me to make websites. all they give me to eat is oatmeal and sausage. if you're reading this, please send help",
     avatar: '/images/evan.jpg'
   },
 
