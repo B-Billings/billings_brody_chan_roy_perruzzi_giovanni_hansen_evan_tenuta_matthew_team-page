@@ -19,8 +19,8 @@ const team = {
   Evan:{
     name: 'Evan',
     role: 'Front-End Development',
-    desc: 'Front-End Development',
-    avatar: '/images/.jpg'
+    desc: "i'm trapped in a tiny room where i'm being forced to code websites. all they give me to eat is oatmeal and sausage. if you're reading this, please send help",
+    avatar: '/images/evan.jpg'
   },
 
   Matt:{
