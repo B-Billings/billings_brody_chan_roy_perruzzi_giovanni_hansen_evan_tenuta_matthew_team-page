@@ -10,11 +10,12 @@ const team = {
   },
 
   Roy:{
-    name: 'Roy',
-    role: 'Motion Graphics',
-    desc: 'Front-End Development',
-    avatar: '/images/.jpg'
+    name: 'Roy Chan',
+    role: 'Motion Graphics Designer',
+    desc: 'Hi my name is Roy, I am the Motion Graphics Designer in the team, I love making all kinds of motion graphics/animated artwork, a big fan of Photoshop, Illustrator, Premiere and After Effects',
+    avatar: '/images/Roy.jpg'
   },
+
 
   Evan:{
     name: 'Evan',
