@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="public/images/" width="200px">
+  <img src="public/images/newdisconnect.png" width="600px">
 </div>
 
 # FIP Team Page
@@ -10,7 +10,8 @@
 This is the submission file for our teams FIP Team Page assignment
 <br>
 
-A brief summary. This is a similar build to our favourite things assignment; However, this assinment features node and NPM.
+A brief summary. This is a similar build to our favourite things assignment; However, this assinment features node and NPM. <br>
+There are static components on the website; However, all of our team and team members photos and bios are dynamically loaded in.
 
 
 ## Installation
@@ -21,16 +22,6 @@ A brief summary. This is a similar build to our favourite things assignment; How
 3. Right click on the "index" and select open in default browser
 4. Enjoy!
 
-
-## Contributing
-***
-
-1. Fork it!
-2. Create your feature branch: `git checkout -b my-new-feature`
-3. Commit your changes: `git commit -am 'Add some feature'`
-4. Push to the branch: `git push origin my-new-feature`
-5. Submit a pull request :D
-
 <br>
 
 ## Credits
@@ -39,7 +30,7 @@ HTML markup/outline [W3C](https://validator.w3.org/)
 <br>
 JS Animation help [GreenSock](https://greensock.com/)
 <br>
-JS help from in class demonstrations and previous assignments.
+JS/Node help from in class demonstrations and previous assignments.
 
 
 ## License
