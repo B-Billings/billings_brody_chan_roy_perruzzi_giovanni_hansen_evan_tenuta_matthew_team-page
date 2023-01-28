@@ -20,15 +20,15 @@ const team = {
   Evan:{
     name: 'Evan',
     role: 'Front-End Development',
-    desc: "i'm trapped in a tiny room, there is barely any light and they tell me to make websites. all they give me to eat is oatmeal and sausage. if you're reading this, please send help",
+    desc: "I'm trapped in a tiny room, there is barely any light and they tell me to make websites. All they give me to eat is oatmeal and sausage. If you're reading this, please send help",
     avatar: '/images/evan.jpg'
   },
 
   Matt:{
     name: 'Matt',
     role: 'Graphic Design',
-    desc: 'Front-End Development',
-    avatar: '/images/.jpg'
+    desc: "Hello there, my name is Matthew and I am the graphic designer for the Disconnected campaign. I am in charge of logos, advertisements, and basically any other design work assigned to me. I try my best on all my designs and I am glad to have such a great team working along side me for this campaign.",
+    avatar: '/images/matthew.jpg'
 
   },
   Gio:{
