@@ -1,4 +1,5 @@
 var express = require('express');
+var rateLimit = require('express-rate-limit');
 var router = express.Router();
 
 const team = {
@@ -39,6 +40,11 @@ const team = {
   }
 }
 
+router.use(rateLimit({
+  windowMs: 1 * 60 * 1000,
+  max: 20,
+  message: 'Too many requests from this IP, please try again later.'
+}));
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
