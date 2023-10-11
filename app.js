@@ -22,13 +22,13 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use(helmet());
-
 app.use(rateLimit({
   windowMs: 1 * 60 * 1000,
   max: 20,
   message: 'Too many requests from this IP, please try again later.'
 }));
+
+app.use(helmet({ hidePoweredBy: true }));
 
 const csrfProtection = csrf({ cookie: true });
 app.use(csrfProtection);
